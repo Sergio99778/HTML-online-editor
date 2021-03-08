@@ -1,0 +1,14 @@
+.main--container {
+    background-color: #f5f3f3;
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+}
+.text {
+    height: 100%;
+    width: 50%;
+}
+.main--container iframe {
+    height: 100%;
+    width: 50%;
+}

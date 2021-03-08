@@ -8,13 +8,17 @@
     <!--Style-->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/codeigniter.ico" type="image/x-icon">
 </head>
 <body>
     <main>
         <div class="main--container">
-            <textarea class="text" id="text" placeholder="Enter your text here"></textarea>
-            <iframe srcdoc="Hello world" class="" ></iframe>
+            <textarea onkeyup="update()" class="text" id="text" placeholder="Enter your text here"></textarea>
+            <iframe id="view" srcdoc="Hello world" class="" ></iframe>
         </div>
     </main>
+    <!--Script-->
+    <script src="./js/editor.bundle.js"></script>
 </body>
 </html>
